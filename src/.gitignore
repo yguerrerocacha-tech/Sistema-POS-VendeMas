@@ -1,0 +1,7 @@
+# Archivos compilados de Java
+bin/
+
+# Configuraciones locales de Eclipse
+.settings/
+.classpath
+.project
