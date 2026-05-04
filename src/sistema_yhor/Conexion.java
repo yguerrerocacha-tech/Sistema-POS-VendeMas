@@ -8,7 +8,7 @@ public class Conexion {
     private static final String URL = "jdbc:mysql://localhost:3306/db_goodmarket";
     private static final String USER = "root";
     private static final String PASSWORD = "Guerrero240320";
-    
+ // Última actualización: mayo 2026
     public static Connection conectar() {
         Connection con = null;
         try {
