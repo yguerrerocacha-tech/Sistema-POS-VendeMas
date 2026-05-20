@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      Los Olivos - Lima, Perú    
+=================================
+Fecha/Hora: 19/05/2026 12:22:19
+Cliente: YOLANDA GUERGORIA CACHA JULCA
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Yogurt Glori..   3    S/.S/. 18.60
+---------------------------------
+SUBTOTAL BRUTO:      S/. 18.60   
+DESCUENTO APLICADO:  S/. 2.23    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 16.37   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

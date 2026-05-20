@@ -1,0 +1,20 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      Los Olivos - Lima, Perú    
+=================================
+Fecha/Hora: 19/05/2026 20:53:39
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Yogurt Glori..   11   S/.S/. 68.20
+Gaseosa Inka..   1    S/.S/. 6.50 
+---------------------------------
+SUBTOTAL BRUTO:      S/. 74.70   
+DESCUENTO APLICADO:  S/. 33.61   
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 41.09   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

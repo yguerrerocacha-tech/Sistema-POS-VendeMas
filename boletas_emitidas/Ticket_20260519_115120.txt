@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      Los Olivos - Lima, Perú    
+=================================
+Fecha/Hora: 19/05/2026 11:51:20
+Cliente: YHOR
+---------------------------------
+PRODUCTO           CNT TOTAL   
+---------------------------------
+Shampoo Head &..   4   S/. 60.00
+---------------------------------
+SUBTOTAL BRUTO:        S/. 60.00   
+DESCUENTO APLICADO:    S/. 3.60    
+---------------------------------
+TOTAL NETO A PAGAR:    S/. 56.40   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      Los Olivos - Lima, Perú    
+=================================
+Fecha/Hora: 20/05/2026 08:17:35
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Yogurt Glori..   1    S/.S/. 6.20 
+---------------------------------
+SUBTOTAL BRUTO:      S/. 6.20    
+DESCUENTO APLICADO:  S/. 0.00    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 6.20    
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

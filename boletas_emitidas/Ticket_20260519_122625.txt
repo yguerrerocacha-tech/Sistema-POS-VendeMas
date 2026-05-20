@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      Los Olivos - Lima, Perú    
+=================================
+Fecha/Hora: 19/05/2026 12:26:25
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Mayonesa Ala..   3    S/.S/. 13.50
+---------------------------------
+SUBTOTAL BRUTO:      S/. 13.50   
+DESCUENTO APLICADO:  S/. 0.13    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 13.37   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

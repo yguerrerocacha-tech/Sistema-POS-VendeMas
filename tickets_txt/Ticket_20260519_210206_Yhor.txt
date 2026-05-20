@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      Los Olivos - Lima, Perú    
+=================================
+Fecha/Hora: 19/05/2026 21:02:06
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Gaseosa Inka..   12   S/.S/. 78.00
+---------------------------------
+SUBTOTAL BRUTO:      S/. 78.00   
+DESCUENTO APLICADO:  S/. 3.90    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 74.10   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

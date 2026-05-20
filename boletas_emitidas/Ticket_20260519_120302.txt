@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      Los Olivos - Lima, Perú    
+=================================
+Fecha/Hora: 19/05/2026 12:03:02
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Leche Ideal      1    S/.S/. 11.00
+---------------------------------
+SUBTOTAL BRUTO:      S/. 11.00   
+DESCUENTO APLICADO:  S/. 0.11    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 10.89   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

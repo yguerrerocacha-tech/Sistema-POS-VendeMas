@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      Los Olivos - Lima, Perú    
+=================================
+Fecha/Hora: 19/05/2026 12:18:54
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Galletas Sod..   11   S/.S/. 38.50
+---------------------------------
+SUBTOTAL BRUTO:      S/. 38.50   
+DESCUENTO APLICADO:  S/. 4.62    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 33.88   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

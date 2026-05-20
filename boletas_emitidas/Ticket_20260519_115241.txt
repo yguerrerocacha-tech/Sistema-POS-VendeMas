@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      Los Olivos - Lima, Perú    
+=================================
+Fecha/Hora: 19/05/2026 11:52:41
+Cliente: YHOR
+---------------------------------
+PRODUCTO           CNT TOTAL   
+---------------------------------
+Papel Higiénic..   1   S/. 5.50
+---------------------------------
+SUBTOTAL BRUTO:        S/. 5.50    
+DESCUENTO APLICADO:    S/. 0.11    
+---------------------------------
+TOTAL NETO A PAGAR:    S/. 5.39    
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

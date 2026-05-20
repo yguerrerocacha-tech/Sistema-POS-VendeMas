@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      Los Olivos - Lima, Perú    
+=================================
+Fecha/Hora: 19/05/2026 12:37:45
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Atún Campoma..   3    S/.S/. 17.40
+---------------------------------
+SUBTOTAL BRUTO:      S/. 17.40   
+DESCUENTO APLICADO:  S/. 1.91    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 15.49   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

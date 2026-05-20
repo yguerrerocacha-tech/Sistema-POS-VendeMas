@@ -1,0 +1,17 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      Los Olivos - Lima, Perú    
+=================================
+Fecha/Hora: 19/05/2026 11:32:35
+Cliente: FELIX PABLO
+---------------------------------
+PRODUCTO           CNT TOTAL   
+---------------------------------
+Shampoo Head &..   3   S/. 45.00
+---------------------------------
+SUBTOTAL:              S/. 45.00   
+TOTAL PAGADO:          S/. 45.00   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================
