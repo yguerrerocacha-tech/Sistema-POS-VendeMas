@@ -72,11 +72,11 @@ public class Venta extends JFrame {
   
         JLabel lblDni = new JLabel("DNI Cliente:");
         lblDni.setFont(new Font("Segoe UI", Font.PLAIN, 14));
-        lblDni.setBounds(293, 239, 100, 25);
+        lblDni.setBounds(30, 353, 100, 25);
         formPanel.add(lblDni);
 
         txtDniVenta = new JTextField();
-        txtDniVenta.setBounds(293, 274, 120, 30);
+        txtDniVenta.setBounds(130, 353, 120, 30);
         formPanel.add(txtDniVenta);
 
         btnBuscarCliente = new JButton("🔍");
@@ -113,12 +113,12 @@ public class Venta extends JFrame {
                 }
             }
         });
-        btnBuscarCliente.setBounds(395, 446, 50, 30);
+        btnBuscarCliente.setBounds(266, 352, 50, 30);
         formPanel.add(btnBuscarCliente);
 
         JLabel lblNomCli = new JLabel("Cliente:");
         lblNomCli.setFont(new Font("Segoe UI", Font.PLAIN, 14));
-        lblNomCli.setBounds(40, 447, 100, 25);
+        lblNomCli.setBounds(30, 388, 100, 25);
         formPanel.add(lblNomCli);
 
         JLabel lblId = new JLabel("ID Producto:");
@@ -194,66 +194,66 @@ public class Venta extends JFrame {
         txtDescuento.setForeground(SystemColor.inactiveCaptionText);
         txtDescuento.setBounds(130, 300, 150, 30);
         formPanel.add(txtDescuento);
-
-        JButton btnCalcular = new JButton(" AGREGAR AL CARRITO");
-        btnCalcular.setBackground(new Color(0, 123, 255)); 
-        btnCalcular.setForeground(SystemColor.desktop);
-        btnCalcular.setFont(new Font("Segoe UI", Font.BOLD, 16));
-        btnCalcular.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                try {
-                    Connection cn = Conexion.conectar();
-                    int idProd = Integer.parseInt(txtIdVenta.getText());
-                    int cant = Integer.parseInt(txtCantidadVenta.getText());
-
-                    PreparedStatement pst = cn.prepareStatement("SELECT * FROM productos WHERE id_producto = ?");
-                    pst.setInt(1, idProd);
-                    ResultSet rs = pst.executeQuery();
-
-                    if (rs.next()) {
-                        int stockActual = rs.getInt("stock");
-                        if (stockActual >= cant) {
-                            double precio = rs.getDouble("precio");
-                            String nombre = rs.getString("nombre_producto");
-                            double subtotalItem = precio * cant;
-
-                            PreparedStatement pstStock = cn.prepareStatement("UPDATE productos SET stock = stock - ? WHERE id_producto = ?");
-                            pstStock.setInt(1, cant);
-                            pstStock.setInt(2, idProd);
-                            pstStock.executeUpdate();
-
-                            PreparedStatement pstCli = cn.prepareStatement("INSERT IGNORE INTO clientes (dni, nombre_completo) VALUES (?, ?)");
-                            pstCli.setString(1, txtDniVenta.getText().trim());
-                            pstCli.setString(2, txtClienteNombre.getText().trim());
-                            pstCli.executeUpdate();
-
-                            subtotalAcumulado += subtotalItem;
-                            detallesCarrito += String.format("%-20s %d x S/%.2f = S/%.2f\n", nombre, cant, precio, subtotalItem);
-
-                            textAreaVenta.setText("🛒 CARRITO ACTUAL:\n" +
-                                                "Cliente: " + txtClienteNombre.getText() + "\n" +
-                                                "--------------------------------------------------\n" +
-                                                detallesCarrito +
-                                                "--------------------------------------------------\n" +
-                                                "SUBTOTAL PARCIAL: S/ " + String.format("%.2f", subtotalAcumulado));
-
-                            txtIdVenta.setText(""); txtNombreVenta.setText(""); txtPrecioVenta.setText(""); txtCantidadVenta.setText("");
-                        } else {
-                            textAreaVenta.setText("❌ Stock insuficiente. Solo quedan " + stockActual);
-                        }
-                    }
-                } catch (Exception ex) {
-                    textAreaVenta.setText("❌ Error: Verifique los datos o la conexión.");
-                }
-            }
-        });
-        btnCalcular.setBounds(30, 380, 380, 50);
-        formPanel.add(btnCalcular);
         
                 txtClienteNombre = new JTextField();
-                txtClienteNombre.setBounds(90, 447, 280, 30);
+                txtClienteNombre.setBounds(130, 393, 280, 30);
                 formPanel.add(txtClienteNombre);
                 txtClienteNombre.setEditable(true);
+                
+                        JButton btnCalcular = new JButton(" AGREGAR AL CARRITO");
+                        btnCalcular.setBounds(40, 433, 380, 50);
+                        formPanel.add(btnCalcular);
+                        btnCalcular.setBackground(new Color(0, 123, 255)); 
+                        btnCalcular.setForeground(SystemColor.desktop);
+                        btnCalcular.setFont(new Font("Segoe UI", Font.BOLD, 16));
+                        btnCalcular.addActionListener(new ActionListener() {
+                            public void actionPerformed(ActionEvent e) {
+                                try {
+                                    Connection cn = Conexion.conectar();
+                                    int idProd = Integer.parseInt(txtIdVenta.getText());
+                                    int cant = Integer.parseInt(txtCantidadVenta.getText());
+
+                                    PreparedStatement pst = cn.prepareStatement("SELECT * FROM productos WHERE id_producto = ?");
+                                    pst.setInt(1, idProd);
+                                    ResultSet rs = pst.executeQuery();
+
+                                    if (rs.next()) {
+                                        int stockActual = rs.getInt("stock");
+                                        if (stockActual >= cant) {
+                                            double precio = rs.getDouble("precio");
+                                            String nombre = rs.getString("nombre_producto");
+                                            double subtotalItem = precio * cant;
+
+                                            PreparedStatement pstStock = cn.prepareStatement("UPDATE productos SET stock = stock - ? WHERE id_producto = ?");
+                                            pstStock.setInt(1, cant);
+                                            pstStock.setInt(2, idProd);
+                                            pstStock.executeUpdate();
+
+                                            PreparedStatement pstCli = cn.prepareStatement("INSERT IGNORE INTO clientes (dni, nombre_completo) VALUES (?, ?)");
+                                            pstCli.setString(1, txtDniVenta.getText().trim());
+                                            pstCli.setString(2, txtClienteNombre.getText().trim());
+                                            pstCli.executeUpdate();
+
+                                            subtotalAcumulado += subtotalItem;
+                                            detallesCarrito += String.format("%-20s %d x S/%.2f = S/%.2f\n", nombre, cant, precio, subtotalItem);
+
+                                            textAreaVenta.setText("🛒 CARRITO ACTUAL:\n" +
+                                                                "Cliente: " + txtClienteNombre.getText() + "\n" +
+                                                                "--------------------------------------------------\n" +
+                                                                detallesCarrito +
+                                                                "--------------------------------------------------\n" +
+                                                                "SUBTOTAL PARCIAL: S/ " + String.format("%.2f", subtotalAcumulado));
+
+                                            txtIdVenta.setText(""); txtNombreVenta.setText(""); txtPrecioVenta.setText(""); txtCantidadVenta.setText("");
+                                        } else {
+                                            textAreaVenta.setText("❌ Stock insuficiente. Solo quedan " + stockActual);
+                                        }
+                                    }
+                                } catch (Exception ex) {
+                                    textAreaVenta.setText("❌ Error: Verifique los datos o la conexión.");
+                                }
+                            }
+                        });
 
         textAreaVenta = new JTextArea();
         textAreaVenta.setEditable(false);
@@ -282,6 +282,10 @@ public class Venta extends JFrame {
            btnIrAlmacen.setBackground(new Color(108, 117, 125)); 
            btnIrAlmacen.setForeground(Color.DARK_GRAY);
            btnIrAlmacen.setFont(new Font("Segoe UI", Font.BOLD, 14));
+           
+           JLabel lblNewLabel = new JLabel("New label");
+           lblNewLabel.setBounds(597, 326, 44, 12);
+           contentPane.add(lblNewLabel);
         
         btnFinalizar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -302,7 +306,7 @@ public class Venta extends JFrame {
                 double igv = opGravada * 0.18;
                 double totalPagar = opGravada + igv;
 
-                // 2. LUEGO ESCRIBIMOS LA BOLETA (Antes de borrar nada)
+             
                 textAreaVenta.setText(
                     "==================================================\n" +
                     "            CAFETERÍA VENDE MÁS - BOLETA          \n" +

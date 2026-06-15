@@ -102,8 +102,8 @@ public class V1 extends JFrame {
         txtStock.setBounds(130, 230, 220, 30);
         formPanel.add(txtStock);
 
-        // --- BOTÓN INSERTAR ---
-        JButton btnInsertar = new JButton("Insertar / Sumar Stock");
+
+        JButton btnInsertar = new JButton("Insertar ");
         btnInsertar.setBackground(new Color(40, 167, 69)); 
         btnInsertar.setForeground(SystemColor.activeCaptionText);
         btnInsertar.setFont(new Font("Segoe UI", Font.BOLD, 14));
@@ -119,19 +119,19 @@ public class V1 extends JFrame {
                     pst.setInt(3, Integer.parseInt(txtStock.getText().trim()));
                     pst.executeUpdate();
                     
-                    textArea.append("\n✅ PRODUCTO REGISTRADO: " + txtProd.getText());
+                    textArea.append("\n PRODUCTO REGISTRADO: " + txtProd.getText());
                     actualizarLista(); 
                     limpiarCajas();
                 } catch (Exception ex) { 
-                    textArea.setText("❌ Error al insertar: " + ex.getMessage()); 
+                    textArea.setText(" Error al insertar: " + ex.getMessage()); 
                 }
             }
         });
         btnInsertar.setBounds(30, 300, 320, 40);
         formPanel.add(btnInsertar);
 
-        // --- BOTÓN MODIFICAR ---
-        JButton btnModificar = new JButton("Modificar Datos");
+ 
+        JButton btnModificar = new JButton("Modificar Datos/\r\nSumar Stock");
         btnModificar.setBackground(new Color(23, 162, 184)); 
         btnModificar.setForeground(SystemColor.activeCaptionText);
         btnModificar.setFont(new Font("Segoe UI", Font.BOLD, 14));
@@ -147,15 +147,15 @@ public class V1 extends JFrame {
                     pst.setInt(4, Integer.parseInt(txtId.getText().trim()));
                     pst.executeUpdate();
                     
-                    textArea.append("\n✅ PRODUCTO ID " + txtId.getText() + " MODIFICADO");
+                    textArea.append("\n PRODUCTO ID " + txtId.getText() + " MODIFICADO");
                     actualizarLista();
                     limpiarCajas();
                 } catch (Exception ex) { 
-                    textArea.setText("❌ Error al modificar: " + ex.getMessage()); 
+                    textArea.setText(" Error al modificar: " + ex.getMessage()); 
                 }
             }
         });
-        btnModificar.setBounds(30, 350, 150, 40);
+        btnModificar.setBounds(10, 352, 245, 55);
         formPanel.add(btnModificar);
 
         // --- BOTÓN ELIMINAR ---
@@ -175,11 +175,11 @@ public class V1 extends JFrame {
                     actualizarLista();
                     limpiarCajas();
                 } catch (Exception ex) { 
-                    textArea.setText("❌ Error al eliminar: " + ex.getMessage()); 
+                    textArea.setText(" Error al eliminar: " + ex.getMessage()); 
                 }
             }
         });
-        btnEliminar.setBounds(200, 350, 150, 40);
+        btnEliminar.setBounds(268, 359, 107, 40);
         formPanel.add(btnEliminar);
 
         textArea = new JTextArea();
