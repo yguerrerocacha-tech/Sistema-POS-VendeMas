@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      SAN MIGUEL - Lima, Perú    
+=================================
+Fecha/Hora: 12/06/2026 13:54:02
+Cliente: PÚBLICO GENERAL
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Gaseosa Inka..   75   S/.S/. 487.50
+---------------------------------
+SUBTOTAL BRUTO:      S/. 487.50  
+DESCUENTO APLICADO:  S/. 0.00    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 487.50  
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

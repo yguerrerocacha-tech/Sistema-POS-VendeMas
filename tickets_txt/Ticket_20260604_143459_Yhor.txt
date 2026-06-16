@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      SAN MIGUEL - Lima, Perú    
+=================================
+Fecha/Hora: 04/06/2026 14:34:59
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Fideos Don V..   3    S/.S/. 11.40
+---------------------------------
+SUBTOTAL BRUTO:      S/. 11.40   
+DESCUENTO APLICADO:  S/. 0.00    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 11.40   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      SAN MIGUEL - Lima, Perú    
+=================================
+Fecha/Hora: 21/05/2026 11:04:09
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Detergente O..   3    S/.S/. 26.70
+---------------------------------
+SUBTOTAL BRUTO:      S/. 26.70   
+DESCUENTO APLICADO:  S/. 0.00    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 26.70   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

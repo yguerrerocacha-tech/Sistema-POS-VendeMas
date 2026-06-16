@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      SAN MIGUEL - Lima, Perú    
+=================================
+Fecha/Hora: 22/05/2026 13:27:27
+Cliente: PÚBLICO GENERAL
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Aceite Deleite   2    S/.S/. 14.00
+---------------------------------
+SUBTOTAL BRUTO:      S/. 14.00   
+DESCUENTO APLICADO:  S/. 0.00    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 14.00   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

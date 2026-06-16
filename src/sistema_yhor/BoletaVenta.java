@@ -10,7 +10,7 @@ import javax.swing.JTable;
 
 public class BoletaVenta {
 
-    // Método principal que construye la cadena de texto plano del ticket
+  
     public String obtenerTextoTicket(String cliente, double subtotal, double total, JTable tabla) {
         double montoDescuento = subtotal - total;
         if (montoDescuento < 0) montoDescuento = 0.0;
@@ -52,7 +52,7 @@ public class BoletaVenta {
         return ticket.toString();
     }
 
-    // Abre el Bloc de notas con el archivo de texto en menos de 1 milisegundo
+   
     public void abrirEnBlocDeNotas(String textoTicket, String cliente) {
         try {
             File carpeta = new File("tickets_txt");
@@ -69,7 +69,7 @@ public class BoletaVenta {
             pw.print(textoTicket);
             pw.close();
             
-            // Lanza el Bloc de notas nativo de Windows inmediatamente
+          
             if (Desktop.isDesktopSupported()) {
                 Desktop.getDesktop().open(archivoTxt);
             }

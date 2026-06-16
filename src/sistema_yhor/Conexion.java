@@ -4,7 +4,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-    
+	public static boolean usuarioLogueado = false;   
     private static final String URL = "jdbc:mysql://localhost:3306/db_goodmarket";
     private static final String USER = "root";
     private static final String PASSWORD = "Guerrero240320";

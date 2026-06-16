@@ -1,0 +1,20 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      SAN MIGUEL - Lima, Perú    
+=================================
+Fecha/Hora: 16/06/2026 13:26:53
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Papel Higién..   12   S/.S/. 66.00
+Gaseosa Inka..   1    S/.S/. 6.50 
+---------------------------------
+SUBTOTAL BRUTO:      S/. 72.50   
+DESCUENTO APLICADO:  S/. 0.72    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 71.78   
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

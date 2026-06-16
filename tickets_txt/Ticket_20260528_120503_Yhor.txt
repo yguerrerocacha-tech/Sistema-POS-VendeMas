@@ -1,0 +1,19 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      SAN MIGUEL - Lima, Perú    
+=================================
+Fecha/Hora: 28/05/2026 12:05:03
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Leche Gloria..   2    S/.S/. 8.40 
+---------------------------------
+SUBTOTAL BRUTO:      S/. 8.40    
+DESCUENTO APLICADO:  S/. 0.00    
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 8.40    
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================

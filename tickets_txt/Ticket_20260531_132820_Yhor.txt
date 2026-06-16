@@ -1,0 +1,20 @@
+=================================
+          MINIMARKET VENDEMÁS    
+      SAN MIGUEL - Lima, Perú    
+=================================
+Fecha/Hora: 31/05/2026 13:28:20
+Cliente: YHOR
+---------------------------------
+PRODUCTO         CAN  TOTAL    
+---------------------------------
+Papel Higién..   12   S/.S/. 66.00
+Mayonesa Ala..   11   S/.S/. 49.50
+---------------------------------
+SUBTOTAL BRUTO:      S/. 115.50  
+DESCUENTO APLICADO:  S/. 11.55   
+---------------------------------
+TOTAL NETO A PAGAR:  S/. 103.95  
+=================================
+    ¡Gracias por su compra!      
+       Vuelve pronto :)          
+=================================
