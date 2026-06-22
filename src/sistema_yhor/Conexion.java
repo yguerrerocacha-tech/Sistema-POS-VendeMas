@@ -17,7 +17,7 @@ public class Conexion {
             System.out.println("¡ÉXITO! Conexión establecida con GoodMarket.");
             
         } catch (ClassNotFoundException e) {
-            System.out.println("Error: No se encontró el conector .jar  " + e.getMessage());
+            System.out.println("Error: No  se encontró el conector .jar  " + e.getMessage());
             
         } catch (SQLException e) {
             System.out.println("Error de Base de Datos (Revisa tu clave o si MySQL está abierto): " + e.getMessage());
