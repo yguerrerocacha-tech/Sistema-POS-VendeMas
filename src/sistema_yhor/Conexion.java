@@ -14,13 +14,13 @@ public class Conexion {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(URL, USER, PASSWORD);
-            System.out.println("¡ÉXITO! Conexión establecida con GoodMarket.");
+            System.out.println("¡ÉXITO! Conexión establecida con GoodMarket."); 
             
         } catch (ClassNotFoundException e) {
             System.out.println("Error: No  se encontró el conector .jar  " + e.getMessage());
             
         } catch (SQLException e) {
-            System.out.println("Error de Base de Datos (Revisa tu clave o si MySQL está abierto): " + e.getMessage());
+            System.out.println("Error de Base de  Datos (Revisa tu clave o si MySQL está abierto): " + e.getMessage());
         }
         
         return con;
